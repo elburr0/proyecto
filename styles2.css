@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    cursor: url('nueva carpeta/cursor.cur'), auto;
+}.inicio{
+    margin: 0 auto;
+    padding: 0;
+    color: darkred;
+    font-size: 30px;
+    text-align: center;
+}.info{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-items: center;
+    text-align: center;
+    color: rgb(139, 103, 9);
+    margin: 0 auto;
+}.info2{
+    text-align: center;
+    color: rgb(139, 103, 9);
+}.final{
+    text-align: left;
+    color: darkred;
+}h2{
+    color: darkgoldenrod;
+}p{
+    font-size: 20px;
+}.final a{
+    text-decoration: none;
+}.final a:hover{
+    cursor: url('Nueva carpeta/mano.cur'), auto;
+    color: darkred;
+}

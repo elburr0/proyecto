@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    cursor: url('nueva carpeta/cursor.cur'), auto;
+}.inicio{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    color: darkred;
+    font-size: 30px;
+    text-align: center;
+}.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(139, 103, 9);
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 0px;
+}.info h2{
+    margin-bottom: auto;
+}.tabla{
+    display: flex;
+    flex-wrap: nowrap;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}.tabla img{
+    flex-shrink: 0;
+}.fin{
+    text-align: left;
+    color: darkred;
+}h2{
+    color: darkgoldenrod;
+}.calav{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    height: 30px;
+}.calav img{
+    align-self: center;
+}.fin a{
+    text-decoration: none;
+}.fin a:hover{
+    cursor: url('Nueva carpeta/mano.cur'), auto;
+    color: darkred;
+}
